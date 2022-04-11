@@ -65,18 +65,19 @@
         android:text="@string/password_title"
         android:textColor="@color/visan_text_light"
         android:textSize="16sp" />
+
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/pass_et"
         android:layout_width="match_parent"
         android:layout_height="54sp"
-        android:layout_marginTop="2sp"
         android:layout_below="@id/pass_title"
+        android:layout_marginTop="2sp"
         android:background="@drawable/edittext_outline"
+        android:inputType="textPassword"
         android:paddingStart="12sp"
         android:paddingEnd="8sp"
-        android:textColorHint="@color/visan_text_light"
-        android:inputType="textPassword"
-        android:singleLine="true"/>
+        android:singleLine="true"
+        android:textColorHint="@color/visan_text_light" />
 
     <TextView
         android:id="@+id/forgot_pass"

@@ -41,14 +41,15 @@
         android:layout_below="@id/register_text"
         android:layout_marginTop="26sp"
         android:text="@string/email_address_reg"/>
+
     <androidx.appcompat.widget.AppCompatEditText
         android:id="@+id/email_et_reg"
         android:layout_width="match_parent"
         android:layout_height="54sp"
         android:layout_below="@id/email_txt_reg"
         android:layout_marginTop="2sp"
-        android:singleLine="true"
-        android:background="@drawable/edittext_outline"/>
+        android:background="@drawable/edittext_outline"
+        android:singleLine="true" />
 
 
     <TextView
@@ -89,7 +90,7 @@
         android:background="@drawable/edittext_outline"
         android:inputType="phone"
         android:singleLine="true"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
 
 
     <TextView
@@ -111,7 +112,7 @@
         android:background="@drawable/edittext_outline"
         android:inputType="textPassword"
         android:singleLine="true"
-        android:textSize="16sp"/>
+        android:textSize="16sp" />
 
 
     <TextView
@@ -142,12 +143,11 @@
         android:layout_below="@id/re_pass_et"
         android:layout_marginTop="44sp"
         android:background="@drawable/btn_filled_background"
-        android:text="@string/sign_up_reg"
-        android:textColor="@color/white"
-        android:textAllCaps="false"
-        android:textSize="16sp"
         android:fontFamily="@font/os_semi_bold"
-        />
+        android:text="@string/sign_up_reg"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
 
     <LinearLayout
         android:id="@+id/register_to_login_link"

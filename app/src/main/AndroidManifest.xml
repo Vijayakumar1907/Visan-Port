@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.VisanPort">
         <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".Set_new_password"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_Password"
+            android:exported="false" />
+        <activity
             android:name=".Onboarding"
             android:exported="false" />
         <activity

@@ -10,4 +10,12 @@
     <string name="sign_up_reg">Sign Up</string>
     <string name="already_a_user_reg">Already a user ?</string>
     <string name="sign_in_reg">Sign In</string>
+    <string name="forgot_password_m">Forgot Password</string>
+    <string name="otp_desc">Enter the 5 digit verification code send to</string>
+    <string name="phone_no_fg">+91 9360513967</string>
+    <string name="verify_fg">Verify</string>
+    <string name="_05_00_timergf">05:00</string>
+    <string name="set_new_password">Set new Password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="set_password_btn">Set Password</string>
 </resources>
