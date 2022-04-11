@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="new_user">New user?</string>
+    <string name="sign_up_in_login">Sign up</string>
+    <string name="hello_there_register">Hello there !!</string>
+    <string name="email_address_reg">Email address</string>
+    <string name="username_register">Username</string>
+    <string name="confirm_password_reg">Confirm Password</string>
+    <string name="sign_up_reg">Sign Up</string>
+    <string name="already_a_user_reg">Already a user ?</string>
+    <string name="sign_in_reg">Sign In</string>
+</resources>

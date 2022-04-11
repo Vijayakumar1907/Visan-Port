@@ -7,4 +7,20 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="visan_primary">#2F8EC2</color>
+    <color name="visan_p_dark">#0B5883</color>
+    <color name="visan_p_extra_dark">#023450</color>
+    <color name="visan_text_default">#424242</color>
+    <color name="visan_text_light">#757575</color>
+    <color name="visan_extra_light">#66BFF0</color>
+    <color name="visan_grey_two">#EBEBEB</color>
+    <color name="visan_grey_three">#BDBDBD</color>
+
+
+
+
+
+
+
+
 </resources>

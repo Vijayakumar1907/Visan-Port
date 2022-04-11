@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:layout_marginStart="20sp"
+    android:layout_marginEnd="20sp">
+
+    <TextView
+        android:id="@+id/hello_there_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_there_register"
+        android:textSize="16sp"
+        android:singleLine="true"
+        android:textColor="@color/visan_text_light"
+        android:fontFamily="@font/os_medium"
+        android:layout_marginTop="16sp"/>
+
+    <TextView
+        android:id="@+id/register_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="21sp"
+        android:fontFamily="@font/os_semi_bold"
+        android:layout_below="@id/hello_there_register"
+        android:layout_marginTop="2sp"
+        android:text="@string/create_a_new_acc_register"
+        android:textColor="@color/visan_text_default"/>
+
+
+    <TextView
+        android:id="@+id/email_txt_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/os_medium"
+        android:textColor="@color/visan_text_light"
+        android:layout_below="@id/register_text"
+        android:layout_marginTop="26sp"
+        android:text="@string/email_address_reg"/>
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/email_et_reg"
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:layout_below="@id/email_txt_reg"
+        android:layout_marginTop="2sp"
+        android:singleLine="true"
+        android:background="@drawable/edittext_outline"/>
+
+
+    <TextView
+        android:id="@+id/username_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/os_medium"
+        android:textColor="@color/visan_text_light"
+        android:layout_below="@id/email_et_reg"
+        android:layout_marginTop="8sp"
+        android:text="@string/username_register"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/username_et"
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:layout_below="@id/username_register"
+        android:layout_marginTop="2sp"
+        android:singleLine="true"
+        android:background="@drawable/edittext_outline" />
+
+    <TextView
+        android:id="@+id/phone_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/username_et"
+        android:layout_marginTop="8sp"
+        android:fontFamily="@font/os_medium"
+        android:text="@string/phone_number_rg"
+        android:textColor="@color/visan_text_light" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/phone_no_et"
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:layout_below="@id/phone_register"
+        android:layout_marginTop="2sp"
+        android:background="@drawable/edittext_outline"
+        android:inputType="phone"
+        android:singleLine="true"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/pass_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/phone_no_et"
+        android:layout_marginTop="8sp"
+        android:fontFamily="@font/os_medium"
+        android:text="@string/password_reg"
+        android:textColor="@color/visan_text_light" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/password_et"
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:layout_below="@id/pass_register"
+        android:layout_marginTop="2sp"
+        android:background="@drawable/edittext_outline"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="16sp"/>
+
+
+    <TextView
+        android:id="@+id/re_pass_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_et"
+        android:layout_marginTop="8sp"
+        android:fontFamily="@font/os_medium"
+        android:text="@string/confirm_password_reg"
+        android:textColor="@color/visan_text_light" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/re_pass_et"
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:layout_below="@id/re_pass_reg"
+        android:layout_marginTop="2sp"
+        android:background="@drawable/edittext_outline"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:textSize="16sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register_btn"
+        android:layout_width="match_parent"
+        android:layout_height="54sp"
+        android:layout_below="@id/re_pass_et"
+        android:layout_marginTop="44sp"
+        android:background="@drawable/btn_filled_background"
+        android:text="@string/sign_up_reg"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:fontFamily="@font/os_semi_bold"
+        />
+
+    <LinearLayout
+        android:id="@+id/register_to_login_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/register_btn"
+        android:layout_marginTop="14sp"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/already_a_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/already_a_user_reg"
+            android:fontFamily="@font/os_medium"
+            android:textSize="14sp"
+            android:textColor="@color/visan_text_default"
+            />
+
+        <TextView
+            android:id="@+id/sign_in_reg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_in_reg"
+            android:fontFamily="@font/os_medium"
+            android:textSize="14sp"
+            android:textColor="@color/visan_p_dark"
+            android:layout_marginStart="2sp"
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

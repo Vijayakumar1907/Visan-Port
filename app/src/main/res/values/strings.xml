@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">VisanPort</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">Welcome back,</string>
+    <string name="sign_in_to_continue">Sign in to continue</string>
+    <string name="email_address">Email Address</string>
+    <string name="example_email_com">example@email.com</string>
+    <string name="forgot_password">Forgot Password ?</string>
+    <string name="new_user">New user?</string>
+    <string name="login_l">Login</string>
+    <string name="sign_up_in_login">Sign up</string>
+    <string name="password_title">Password</string>
+    <string name="hello_there_register">Hello there !!</string>
+    <string name="create_a_new_acc_register">Create a new account</string>
+    <string name="email_address_reg">Email address</string>
+    <string name="username_register">Username</string>
+    <string name="continue_with_google">Continue with google</string>
+    <string name="phone_number_rg">Phone number</string>
+    <string name="password_reg">Password</string>
+    <string name="confirm_password_reg">Confirm Password</string>
+    <string name="sign_up_reg">Sign Up</string>
+    <string name="already_a_user_reg">Already a user ?</string>
+    <string name="sign_in_reg">Sign In</string>
 </resources>
